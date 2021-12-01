@@ -37,10 +37,12 @@
       <div id="aboutme" class="container">
         <h2 class="header">About me</h2>
 
-          <p><button>Learn more about me!</button></p>
+          <p><button id="about_me_button">Learn more about me!</button></p>
           <img id="img_hover" width=100 height=120 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Alpaca_%2831562329701%29.jpg/220px-Alpaca_%2831562329701%29.jpg">
           <figcaption id="an_alpaca!" hidden>this is an alpaca!</figcaption>
+          
           <script>
+              
              $("#about_me_button").click( function() {
                    $("p#aboutme_p").toggle();
              });
